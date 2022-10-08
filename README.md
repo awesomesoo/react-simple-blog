@@ -20,10 +20,16 @@
 
 글 작성 기능
 
-### CommentList, CommentListItem
+### CommentList
 
-댓글보기 기능
+댓글 보기 기능 (리스트 형태)
+
+### CommentListItem
+
+댓글 보기 기능 (리스트의 아이템 형태)
 
 ### CommentWrite
 
 댓글 작성 기능
+
+---
