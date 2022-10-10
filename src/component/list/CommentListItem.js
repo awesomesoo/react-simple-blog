@@ -23,6 +23,7 @@ const ContextText = styled.p`
 
 const CommentListItem = (props) => {
   const { Comment } = props;
+
   return (
     <Wrapper>
       <ContextText>{Comment.content}</ContextText>
