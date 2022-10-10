@@ -21,7 +21,7 @@ const TitleText = styled.p`
   font-weight: 500;
 `;
 
-const PostListItem = () => {
+const PostListItem = (props) => {
   const { post, onClick } = props;
 
   return (
