@@ -9,7 +9,7 @@ const StyleTextarea = styled.textarea`
   line-height: 20px;
 `;
 
-const Textinput = () => {
+const Textinput = (props) => {
   const { height, value, onChange } = props;
 
   return <StyleTextarea height={height} value={value} onChange={onChange} />;
