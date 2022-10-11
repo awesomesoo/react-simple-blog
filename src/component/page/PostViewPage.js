@@ -47,18 +47,46 @@ const CommentLabel = styled.p`
   font-weight: 500;
 `;
 
-const PostViewPage = () => {
+const PostViewPage = (props) => {
+  const navigate = useNavigate();
+  const { postId } = useParams();
+
+  const post = data.find((item) => {
+    return item.id == postId;
+  });
+
+  const [comment, setComment] = useState("");
+
   return (
     <Wrapper>
       <Container>
+        <Button
+          title="뒤로 가기"
+          onClick={() => {
+            navigate("/");
+          }}
+        />
         <PostContainer>
-          <TitleText></TitleText>
-          <ContentText></ContentText>
+          <TitleText>{post.title}</TitleText>
+          <ContentText>{post.content}</ContentText>
         </PostContainer>
-        <CommentLabel></CommentLabel>
-        <CommentList />
-        <TextInput />
-        <Button />
+
+        <CommentLabel>댓글</CommentLabel>
+        <CommentList comments={post.comments} />
+
+        <TextInput
+          height={40}
+          value={comment}
+          onChange={(event) => {
+            setComment(event.target.value);
+          }}
+        />
+        <Button
+          title="댓글 작성하기"
+          onClick={() => {
+            navigate("/");
+          }}
+        />
       </Container>
     </Wrapper>
   );
