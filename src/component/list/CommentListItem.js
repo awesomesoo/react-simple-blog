@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  width: calc(100%-32px);
-  padding: 16px;
+  width: calc(100% - 32px);
+  padding: 8px 16px;
   display: flex;
-  flex-direction: columen;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   border: 1px solid grey;
@@ -17,16 +17,17 @@ const Wrapper = styled.div`
   }
 `;
 
-const ContextText = styled.p`
-  font-size: 14px;
+const ContentText = styled.p`
+  font-size: 16px;
+  white-space: pre-wrap;
 `;
 
 const CommentListItem = (props) => {
-  const { Comment } = props;
+  const { comment } = props;
 
   return (
     <Wrapper>
-      <ContextText>{Comment.content}</ContextText>
+      <ContentText>{comment.content}</ContentText>
     </Wrapper>
   );
 };

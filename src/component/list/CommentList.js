@@ -21,7 +21,7 @@ const CommentList = (props) => {
   return (
     <Wrapper>
       {comments.map((comment, index) => {
-        return <CommentListItem key={index.id} comment={comment} />;
+        return <CommentListItem key={comment.id} comment={comment} />;
       })}
     </Wrapper>
   );
