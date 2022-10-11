@@ -13,7 +13,7 @@ const Button = (props) => {
   const { title, onClick } = props;
   return (
     <div>
-      return <StyledButton onClick={onClick}>{title || "button"}</StyledButton>;
+      <StyledButton onClick={onClick}>{title || "button"}</StyledButton>
     </div>
   );
 };
