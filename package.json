@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://uxuisooa.github.io/react-simple-blog/",
   "eslintConfig": {
     "extends": [
       "react-app",
