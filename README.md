@@ -35,7 +35,6 @@
 ---
 
 ### 화면
-<<<<<<< HEAD
 
 ![alt text](https://github.com/awesomesoo/react-simple-blog/blob/gh-pages/img_readme.png?raw=true)
 
