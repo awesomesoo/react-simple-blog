@@ -35,8 +35,12 @@
 ---
 
 ### 화면
+<<<<<<< HEAD
 
 ![alt text](https://github.com/awesomesoo/react-simple-blog/blob/gh-pages/img_readme.png?raw=true)
+=======
+![alt text](https://github.com/uxuisooa/react-simple-blog/blob/master/img_readme.png?raw=true)
+>>>>>>> 49e9fc145f8b81249d5f87b4a2643e5edfa60f98
 
 #### 결과
 
