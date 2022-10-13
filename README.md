@@ -35,8 +35,9 @@
 ---
 
 ### 화면
-![alt text](https://github.com/uxuisooa/react-simple-blog/blob/gh-pages/img_readme.png?raw=true)
+
+![alt text](https://github.com/awesomesoo/react-simple-blog/blob/gh-pages/img_readme.png?raw=true)
 
 #### 결과
 
-https://uxuisooa.github.io/react-simple-blog/
+https://awesomesoo.github.io/react-simple-blog/
